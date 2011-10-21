@@ -1,0 +1,20 @@
+<? 
+  header('Content-type: text/html; charset=utf-8');
+?><!doctype html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>gNius — Examples</title>
+
+<!-- Testing out a jQuery beta? why not. -->
+<script src="http://code.jquery.com/jquery-1.7b2.js"></script>
+
+<!-- gNius -->
+<script src="gnius.js"></script>
+<body>
+
+<section data="$content">$template</section>
+
+<script>$(document).interpolate({
+  content: {
+    template: '<b>hello</b>'
+  }
+})</script>

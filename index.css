@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Cantarell';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Cantarell Regular'), local('Cantarell-Regular'), url('http://themes.googleusercontent.com/font?kit=V86VyqXbc09Sss3BPsMj16CWcynf_cDxXwCLxiixG1c') format('truetype');
+}
+
+body { font:100% 'Cantarell' }
+
+h1 em { color:#999; font:normal .6em 'Cantarell'; display:block }
+
+p { overflow:hidden; padding:1em 2em; max-width:35em; white-space:pre }
+
+#download { float:right; text-decoration:none; padding:0 1em 26px; color:#fff;
+  border: 1px solid rgba(0,0,0,0.5); text-shadow:0 1px 3px #333;
+  border-radius: 10px; -moz-border-radius: 10px;
+  background: rgba(0,0,0,0.25); margin:1em auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+  -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+  -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3); 
+}
+
+
+#ribbon { position:absolute; top:43px; right:-36px; color:#fff; background:#01a2a6;
+  text-decoration:none; padding:0 20px; 
+  -moz-box-shadow:0 0 13px #888; -webkit-box-shadow:0 0 13px #888;
+  -moz-transform: rotate(45deg); -webkit-transform: rotate(45deg) }
