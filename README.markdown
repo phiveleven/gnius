@@ -1,23 +1,28 @@
 [gnius](http://phiveleven.com/gnius/) 
- smarter than your honor roll child.
-================================
+==
 
 gnius is a jQuery plugin for client-side HTML templating.
+* it can iterate and clone for arrays
+* it can recurse
+* it can defer
+* it has no documentation but you are smart
+* 
 
 What you need to run gnius
 --------------------------
 
-You will need [jQuery](http://jquery.com) version 1.4.2 or higher.
+You will need [jQuery](http://jquery.com):
 
-`<script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>`
+`<script src="http://code.jquery.com/jquery-latest.min.js"></script>`
 
-Add gnius.
+[get gnius](https://github.com/phiveleven/gnius/fork_select):
 
 `<script src="gnius.js"></script>`
 
 The basics
 ----------
 Your application data:
+
     <script>
     var articles = [
      { title: "Internet is an infinite loop", icon: "something.png", summary: "Lorem ipsum..." },
@@ -27,6 +32,7 @@ Your application data:
     </script>
 
 Markup:
+
     <article>
      <h2>$title</h2>
      <img src="$icon" />
@@ -34,6 +40,7 @@ Markup:
     </article>
 
 Magic:
+
     <script>
     $('article').interpolate(articles);
     </script>
