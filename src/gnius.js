@@ -15,7 +15,6 @@ var gNius = (function($){
       // TODO use $.map
       this.each(function(i, node){
         var nodes = gNius.interpolate(node, scope || window);
-        if (nodes.length > 1) $(node).replaceWith(nodes);
         jQuery.merge(collection, nodes);
       });
       if (!callback) return collection;
